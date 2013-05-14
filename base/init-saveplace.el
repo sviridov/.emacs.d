@@ -3,6 +3,6 @@
 
 (setq-default save-place t)
 
-(setq save-place-file (conact user-emacs-directory ".places"))
+(setq save-place-file (concat user-emacs-directory ".places"))
 
 (provide 'init-saveplace)
