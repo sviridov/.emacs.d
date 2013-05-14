@@ -1,3 +1,6 @@
 [submodule "visual/powerline"]
 	path = visual/powerline
 	url = git://github.com/jonathanchu/emacs-powerline.git
+[submodule "base/smex"]
+	path = base/smex
+	url = git://github.com/nonsequitur/smex.git
