@@ -16,3 +16,6 @@
 [submodule "base/s"]
 	path = base/s
 	url = git://github.com/magnars/s.el.git
+[submodule "base/ace-jump-mode"]
+	path = base/ace-jump-mode
+	url = git://github.com/winterTTr/ace-jump-mode.git
