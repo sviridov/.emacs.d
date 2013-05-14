@@ -22,3 +22,6 @@
 [submodule "base/multiple-cursors"]
 	path = base/multiple-cursors
 	url = git://github.com/magnars/multiple-cursors.el.git
+[submodule "base/phi-search"]
+	path = base/phi-search
+	url = git://github.com/zk-phi/phi-search.git
