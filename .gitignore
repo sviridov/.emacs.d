@@ -1,0 +1,12 @@
+auto-save-list
+bookmarks
+elpa
+eshell
+tramp
+update-libraries
+*~
+.*
+session.*
+swank
+*.elc
+cl/HyperSpec
