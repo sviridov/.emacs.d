@@ -25,3 +25,6 @@
 [submodule "base/phi-search"]
 	path = base/phi-search
 	url = git://github.com/zk-phi/phi-search.git
+[submodule "base/quick-repl-history-search"]
+	path = base/quick-repl-history-search
+	url = git@github.com:sviridov/quick-repl-history-search.git
