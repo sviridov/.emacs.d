@@ -28,3 +28,6 @@
 [submodule "base/quick-repl-history-search"]
 	path = base/quick-repl-history-search
 	url = git@github.com:sviridov/quick-repl-history-search.git
+[submodule "base/dictem"]
+	path = base/dictem
+	url = git://github.com/cheusov/dictem.git
