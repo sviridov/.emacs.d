@@ -4,3 +4,6 @@
 [submodule "base/smex"]
 	path = base/smex
 	url = git://github.com/nonsequitur/smex.git
+[submodule "base/magit"]
+	path = base/magit
+	url = git://github.com/magit/magit.git
