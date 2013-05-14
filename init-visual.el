@@ -11,6 +11,7 @@
               initial-scratch-message     nil)
 
 (global-hl-line-mode 1)
+
 (show-paren-mode 1)
 
 (setq display-time-day-and-date t
