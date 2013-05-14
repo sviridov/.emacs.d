@@ -10,3 +10,9 @@
 [submodule "base/ido-ubiquitous"]
 	path = base/ido-ubiquitous
 	url = git://github.com/technomancy/ido-ubiquitous.git
+[submodule "base/dash"]
+	path = base/dash
+	url = git://github.com/magnars/dash.el.git
+[submodule "base/s"]
+	path = base/s
+	url = git://github.com/magnars/s.el.git
