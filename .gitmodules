@@ -49,3 +49,6 @@
 [submodule "elisp/litable"]
 	path = elisp/litable
 	url = git://github.com/Fuco1/litable.git
+[submodule "elisp/elisp-slime-nav"]
+	path = elisp/elisp-slime-nav
+	url = git://github.com/purcell/elisp-slime-nav.git
