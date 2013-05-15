@@ -34,3 +34,6 @@
 [submodule "code/expand-region"]
 	path = code/expand-region
 	url = git://github.com/magnars/expand-region.el.git
+[submodule "code/smart-forward"]
+	path = code/smart-forward
+	url = git://github.com/magnars/smart-forward.el.git
