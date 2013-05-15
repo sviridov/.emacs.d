@@ -1,0 +1,5 @@
+# name: (defmacro ... (...) ...)
+# key: defmacro
+# --
+(defmacro ${1:name} ($2) 
+  $0)

@@ -1,0 +1,5 @@
+# name: (dotimes (... ...) ...)
+# key: dotimes
+# --
+(dotimes (${1:var} ${2:ntimes})
+  $0)
