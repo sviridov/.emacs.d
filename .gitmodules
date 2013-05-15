@@ -46,3 +46,6 @@
 [submodule "visual/popup"]
 	path = visual/popup
 	url = git://github.com/auto-complete/popup-el
+[submodule "elisp/litable"]
+	path = elisp/litable
+	url = git://github.com/Fuco1/litable.git
