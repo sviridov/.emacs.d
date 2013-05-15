@@ -40,3 +40,9 @@
 [submodule "code/yasnippet"]
 	path = code/yasnippet
 	url = git://github.com/capitaomorte/yasnippet.git
+[submodule "code/auto-complete"]
+	path = code/auto-complete
+	url = git://github.com/auto-complete/auto-complete.git
+[submodule "visual/popup"]
+	path = visual/popup
+	url = git://github.com/auto-complete/popup-el
