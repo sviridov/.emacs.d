@@ -25,6 +25,7 @@
 
 (require 'init-color-theme)
 (require 'init-powerline)
+(require 'init-popup)
 
 (unless (fboundp 'toggle-fullscreen)
   (defun toggle-fullscreen ()
