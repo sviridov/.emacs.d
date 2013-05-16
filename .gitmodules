@@ -52,3 +52,6 @@
 [submodule "elisp/elisp-slime-nav"]
 	path = elisp/elisp-slime-nav
 	url = git://github.com/purcell/elisp-slime-nav.git
+[submodule "web/zencoding"]
+	path = web/zencoding
+	url = git://github.com/smihica/zencoding.git
