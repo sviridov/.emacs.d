@@ -1,8 +1,8 @@
 
-(defun add-to-load-path (path)
+(defun add-to-load-path (&optional path)
   (add-to-list 'load-path (concat user-emacs-directory path)))
 
-(add-to-load-path "")
+(add-to-load-path)
 
 (require 'init-visual)
 (require 'init-base)
