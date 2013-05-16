@@ -55,3 +55,6 @@
 [submodule "web/zencoding"]
 	path = web/zencoding
 	url = git://github.com/smihica/zencoding.git
+[submodule "network/w3m"]
+	path = network/w3m
+	url = git://github.com/emacsmirror/w3m.git
