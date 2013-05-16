@@ -3,6 +3,11 @@
 
 (require 'powerline)
 
+(setq display-time-day-and-date t
+      display-time-24hr-format  t)
+
+(display-time)
+
 (set-face-attribute 'mode-line nil :background "Gray10" :foreground "White" :box nil :width 'condensed :family "neep")
 (set-face-attribute 'mode-line-inactive nil :background "Gray10" :foreground "White" :box nil :width 'condensed :family "neep")
 

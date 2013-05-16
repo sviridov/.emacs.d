@@ -14,13 +14,6 @@
 
 (show-paren-mode 1)
 
-(setq display-time-day-and-date t
-      display-time-24hr-format  t)
-
-(display-time)
-
-(column-number-mode 1)
-
 (setq scroll-step 1)
 
 (require 'init-color-theme)
