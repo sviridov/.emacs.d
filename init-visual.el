@@ -1,9 +1,12 @@
 
 (add-to-load-path "visual")
 
-(if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
-(if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
-(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
+(require 'init-bars)
+(require 'init-color-theme)
+(require 'init-powerline)
+(require 'init-popup)
+(require 'init-font)
+(require 'init-fullscreen)
 
 (setq-default inhibit-startup-buffer-menu nil
               inhibit-startup-screen        t
@@ -15,12 +18,6 @@
 (show-paren-mode 1)
 
 (setq scroll-step 1)
-
-(require 'init-color-theme)
-(require 'init-powerline)
-(require 'init-popup)
-(require 'init-font)
-(require 'init-fullscreen)
 
 (setq-default show-trailing-whitespace t)
 
