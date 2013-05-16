@@ -26,6 +26,7 @@
 (require 'init-color-theme)
 (require 'init-powerline)
 (require 'init-popup)
+(require 'init-font)
 
 (unless (fboundp 'toggle-fullscreen)
   (defun toggle-fullscreen ()
@@ -36,9 +37,6 @@
        (when (not (frame-parameter nil 'fullscreen)) 'fullboth)))))
 
 (global-set-key [f11] 'toggle-fullscreen)
-
-(ignore-errors
-  (set-default-font "Ubuntu Mono-13"))
 
 (setq-default show-trailing-whitespace t)
 
