@@ -10,11 +10,7 @@
 
 (setq-default make-backup-files nil
 	      auto-save-defaults  t
-	      indent-tabs-mode  nil
-              resize-mini-windows t
-              enable-recursive-minibuffers t)
-
-(fset 'yes-or-no-p 'y-or-n-p)
+	      indent-tabs-mode  nil)
 
 (put 'narrow-to-region 'disabled nil)
 
@@ -32,5 +28,6 @@
 (require 'init-ace-jump-mode)
 (require 'init-quick-repl-history-search)
 (require 'init-dictem)
+(require 'init-minibuffer)
 
 (provide 'init-base)
