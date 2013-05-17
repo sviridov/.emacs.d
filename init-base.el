@@ -1,11 +1,6 @@
 
 (add-to-load-path "base")
 
-(setq-default inhibit-startup-buffer-menu nil
-              inhibit-startup-screen        t
-              initial-buffer-choice       nil
-              initial-scratch-message     nil)
-
 (setq scroll-step 1)
 
 (setq-default make-backup-files nil
@@ -14,6 +9,7 @@
 
 (put 'narrow-to-region 'disabled nil)
 
+(require 'init-startup)
 (require 'init-smex)
 (require 'init-org)
 (require 'init-ido)
