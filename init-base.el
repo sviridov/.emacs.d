@@ -26,5 +26,6 @@
 (require 'init-dictem)
 (require 'init-minibuffer)
 (require 'init-key-chord)
+(require 'init-fullscreen)
 
 (provide 'init-base)
