@@ -27,5 +27,6 @@
 (require 'init-minibuffer)
 (require 'init-key-chord)
 (require 'init-fullscreen)
+(require 'init-windmove)
 
 (provide 'init-base)
