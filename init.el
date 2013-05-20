@@ -11,5 +11,5 @@
 (require 'init-cl)
 (require 'init-elisp)
 (require 'init-clojure)
-(require 'init-js)
+(require 'init-javascript)
 (require 'init-web)
