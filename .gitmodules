@@ -61,3 +61,6 @@
 [submodule "clojure/clojure-mode"]
 	path = clojure/clojure-mode
 	url = git://github.com/technomancy/clojure-mode.git
+[submodule "javascript/js2-mode"]
+	path = javascript/js2-mode
+	url = git://github.com/mooz/js2-mode.git
