@@ -64,3 +64,6 @@
 [submodule "javascript/js2-mode"]
 	path = javascript/js2-mode
 	url = git://github.com/mooz/js2-mode.git
+[submodule "javascript/js2-refactor"]
+	path = javascript/js2-refactor
+	url = git://github.com/magnars/js2-refactor.el.git
