@@ -58,3 +58,6 @@
 [submodule "network/w3m"]
 	path = network/w3m
 	url = git://github.com/emacsmirror/w3m.git
+[submodule "clojure/clojure-mode"]
+	path = clojure/clojure-mode
+	url = git://github.com/technomancy/clojure-mode.git
