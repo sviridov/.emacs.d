@@ -43,8 +43,8 @@
 [submodule "code/auto-complete"]
 	path = code/auto-complete
 	url = git://github.com/auto-complete/auto-complete.git
-[submodule "visual/popup"]
-	path = visual/popup
+[submodule "base/popup"]
+	path = base/popup
 	url = git://github.com/auto-complete/popup-el
 [submodule "elisp/litable"]
 	path = elisp/litable

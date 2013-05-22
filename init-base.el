@@ -28,5 +28,6 @@
 (require 'init-key-chord)
 (require 'init-fullscreen)
 (require 'init-windmove)
+(require 'init-popup)
 
 (provide 'init-base)

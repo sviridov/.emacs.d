@@ -4,7 +4,6 @@
 (require 'init-bars)
 (require 'init-color-theme)
 (require 'init-powerline)
-(require 'init-popup)
 (require 'init-font)
 (require 'init-highlight)
 
