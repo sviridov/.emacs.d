@@ -43,9 +43,6 @@
 [submodule "code/auto-complete"]
 	path = code/auto-complete
 	url = git://github.com/auto-complete/auto-complete.git
-[submodule "base/popup"]
-	path = base/popup
-	url = git://github.com/auto-complete/popup-el
 [submodule "elisp/litable"]
 	path = elisp/litable
 	url = git://github.com/Fuco1/litable.git
@@ -67,3 +64,6 @@
 [submodule "javascript/js2-refactor"]
 	path = javascript/js2-refactor
 	url = git://github.com/magnars/js2-refactor.el.git
+[submodule "base/popup"]
+	path = base/popup
+	url = git://github.com/auto-complete/popup.git
