@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for DIR in $(git submodule | awk '{ print $2 }')
+do echo $DIR:
+   echo ===========================
+   cd ~/.emacs.d/$DIR
+   git fetch
+   git merge origin/master --ff-only
+   cd ~/.emacs.d/
+   git status --porcelain | awk 'match($1, "M"){print $2}' | fgrep -q $DIR && git add $DIR && git commit -m "Dependence updated: `basename $DIR`"
+   echo ===========================
+   echo
+done
