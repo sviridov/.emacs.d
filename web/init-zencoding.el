@@ -5,4 +5,7 @@
 
 (add-hook 'sgml-mode-hook 'zencoding-mode)
 
+(eval-after-load "zencoding-mode"
+ `(define-key zencoding-mode-keymap (kbd "C-j") #'newline-and-indent))
+
 (provide 'init-zencoding)
