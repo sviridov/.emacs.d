@@ -8,7 +8,7 @@
 (require 'init-base)
 (require 'init-code)
 (require 'init-network)
-(require 'init-cl)
+(require 'init-common-lisp)
 (require 'init-elisp)
 (require 'init-clojure)
 (require 'init-javascript)
