@@ -5,7 +5,7 @@
 
 (eval-after-load 'ido-ql-quickload
  `(progn
-    (setf ido-ql-quickload-save-file "~/.emacs.d/.quickload")
+    (setf ido-ql-quickload-save-file (concat user-emacs-directory ".quickload"))
     (ido-ql-quickload-initialize)))
 
 (provide 'init-ido-ql-quickload)
