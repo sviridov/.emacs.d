@@ -67,3 +67,6 @@
 [submodule "base/popup"]
 	path = base/popup
 	url = git://github.com/auto-complete/popup-el.git
+[submodule "common-lisp/ido-ql-quickload"]
+	path = common-lisp/ido-ql-quickload
+	url = git://github.com/sviridov/ido-ql-quickload.git

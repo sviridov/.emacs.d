@@ -29,14 +29,6 @@
 
   (global-set-key [f12] 'slime-selector)
 
-  (add-to-list 'load-path "~/.emacs.d/common-lisp/ido-ql-quickload/")
-
-  (require 'ido-ql-quickload)
-
-  (setf ido-ql-quickload-save-file "~/.emacs.d/.quickload")
-
-  (ido-ql-quickload-initialize)
-
 ;  (define-key slime-repl-mode-map (kbd "C-c C-e")
 ;    'slime-eval-and-replace)
 
