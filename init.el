@@ -12,4 +12,5 @@
 (require 'init-elisp)
 (require 'init-clojure)
 (require 'init-javascript)
+(require 'init-scala)
 (require 'init-web)
