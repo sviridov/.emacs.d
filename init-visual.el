@@ -2,8 +2,7 @@
 (add-to-load-path "visual")
 
 (require 'init-bars)
-(require 'init-color-theme)
-(require 'init-powerline)
+(require 'init-solarized-emacs)
 (require 'init-font)
 (require 'init-highlight)
 
