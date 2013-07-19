@@ -14,7 +14,6 @@
 (require 'init-org)
 (require 'init-ido)
 (require 'init-uniquify)
-(require 'init-russian-computer)
 (require 'init-saveplace)
 (require 'init-magit)
 (require 'init-dired)
