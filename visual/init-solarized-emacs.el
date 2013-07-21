@@ -7,4 +7,6 @@
 
 (load-theme 'solarized-dark t)
 
+(copy-face 'mode-line 'mode-line-inactive)
+
 (provide 'init-solarized-emacs)
