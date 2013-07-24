@@ -73,3 +73,9 @@
 [submodule "visual/solarized-emacs"]
 	path = visual/solarized-emacs
 	url = https://github.com/bbatsov/solarized-emacs.git
+[submodule "base/emacs-http-server"]
+	path = base/emacs-http-server
+	url = https://github.com/skeeto/emacs-http-server.git
+[submodule "javascript/skewer-mode"]
+	path = javascript/skewer-mode
+	url = https://github.com/skeeto/skewer-mode
