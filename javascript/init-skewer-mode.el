@@ -35,6 +35,7 @@
 
     (require 'skewer-css)
     (require 'skewer-html)
+    (require 'skewer-repl)
 
     (add-hook 'css-mode-hook  'skewer-css-mode)
     (add-hook 'sgml-mode-hook 'skewer-html-mode)))
