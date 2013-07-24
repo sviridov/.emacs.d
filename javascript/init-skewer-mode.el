@@ -15,8 +15,6 @@
 (defskewer-start chrome   "google-chrome")
 
 (add-hook 'js2-mode-hook  'skewer-mode)
-(add-hook 'css-mode-hook  'skewer-css-mode)
-(add-hook 'sgml-mode-hook 'skewer-html-mode)
 
 (defun js2-eval-friendly-node-p (n)
   (or (and (js2-stmt-node-p n) (not (js2-block-node-p n)))
@@ -34,7 +32,11 @@
 (eval-after-load "skewer-mode"
  `(progn
     (define-key skewer-mode-map (kbd "C-c C-e") 'skewer-eval-last-expression-and-replace)
+
     (require 'skewer-css)
-    (require 'skewer-html)))
+    (require 'skewer-html)
+
+    (add-hook 'css-mode-hook  'skewer-css-mode)
+    (add-hook 'sgml-mode-hook 'skewer-html-mode)))
 
 (provide 'init-skewer-mode)
