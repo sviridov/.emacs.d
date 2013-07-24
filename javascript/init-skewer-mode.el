@@ -32,6 +32,9 @@
     (backward-char)))
 
 (eval-after-load "skewer-mode"
- `(define-key skewer-mode-map (kbd "C-c C-e") 'skewer-eval-last-expression-and-replace))
+ `(progn
+    (define-key skewer-mode-map (kbd "C-c C-e") 'skewer-eval-last-expression-and-replace)
+    (require 'skewer-css)
+    (require 'skewer-html)))
 
 (provide 'init-skewer-mode)
