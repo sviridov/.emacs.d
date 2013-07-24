@@ -18,4 +18,20 @@
 (add-hook 'css-mode-hook  'skewer-css-mode)
 (add-hook 'sgml-mode-hook 'skewer-html-mode)
 
+(defun js2-eval-friendly-node-p (n)
+  (or (and (js2-stmt-node-p n) (not (js2-block-node-p n)))
+      (and (js2-function-node-p n) (js2-function-node-name n))))
+
+(defun skewer-eval-last-expression-and-replace ()
+  (interactive)
+  (let ((node (js2r--closest 'js2-eval-friendly-node-p)))
+    (skewer-eval-last-expression t)
+    (delete-region (js2-node-abs-pos node)
+                   (+ 1 (js2-node-abs-end node)))
+    (sleep-for 0 50)
+    (backward-char)))
+
+(eval-after-load "skewer-mode"
+ `(define-key skewer-mode-map (kbd "C-c C-e") 'skewer-eval-last-expression-and-replace))
+
 (provide 'init-skewer-mode)
