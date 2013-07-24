@@ -46,9 +46,6 @@
 [submodule "elisp/elisp-slime-nav"]
 	path = elisp/elisp-slime-nav
 	url = git://github.com/purcell/elisp-slime-nav.git
-[submodule "web/zencoding"]
-	path = web/zencoding
-	url = git://github.com/smihica/zencoding.git
 [submodule "network/w3m"]
 	path = network/w3m
 	url = git://github.com/emacsmirror/w3m.git
@@ -79,3 +76,6 @@
 [submodule "javascript/skewer-mode"]
 	path = javascript/skewer-mode
 	url = https://github.com/skeeto/skewer-mode
+[submodule "web/emmet-mode"]
+	path = web/emmet-mode
+	url = https://github.com/smihica/emmet-mode.git
