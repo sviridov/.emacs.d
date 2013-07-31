@@ -7,7 +7,7 @@
 
 (load-theme 'solarized-dark t)
 
-(set-face-attribute 'mode-line-inactive nil :box '(:line-width 1 :color "#93a1a1"))
+(set-face-attribute 'mode-line nil :box '(:line-width 1 :color "#93a1a1"))
 
 (copy-face 'mode-line 'mode-line-inactive)
 
