@@ -1,5 +1,5 @@
 
-(add-to-load-path "network")
+(add-load-path "network")
 
 (require 'init-w3m)
 (require 'init-emacs-wiki)

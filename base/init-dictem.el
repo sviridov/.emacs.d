@@ -1,5 +1,5 @@
 
-(add-to-load-path "base/dictem")
+(add-load-path "base/dictem")
 
 (require 'dictem)
 

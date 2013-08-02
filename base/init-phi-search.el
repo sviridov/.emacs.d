@@ -1,5 +1,5 @@
 
-(add-to-load-path "base/phi-search")
+(add-load-path "base/phi-search")
 
 (require 'phi-search)
 

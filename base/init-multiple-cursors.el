@@ -1,5 +1,5 @@
 
-(add-to-load-path "base/multiple-cursors")
+(add-load-path "base/multiple-cursors")
 
 (require 'multiple-cursors)
 

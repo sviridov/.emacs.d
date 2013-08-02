@@ -1,5 +1,5 @@
 
-(add-to-load-path "code/auto-complete")
+(add-load-path "code/auto-complete")
 
 (require 'auto-complete)
 (require 'auto-complete-config)

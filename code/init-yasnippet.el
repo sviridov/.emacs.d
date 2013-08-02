@@ -1,5 +1,5 @@
 
-(add-to-load-path "code/yasnippet")
+(add-load-path "code/yasnippet")
 
 (require 'yasnippet)
 

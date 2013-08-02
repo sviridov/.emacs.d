@@ -1,5 +1,5 @@
 
-(add-to-load-path "base/popup")
+(add-load-path "base/popup")
 
 (require 'popup)
 

@@ -1,5 +1,5 @@
 
-(add-to-load-path "scala")
+(add-load-path "scala")
 
 (require 'init-scala-mode2)
 (require 'init-ensime)

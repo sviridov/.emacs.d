@@ -1,5 +1,5 @@
 
-(add-to-load-path "base/ido-ubiquitous")
+(add-load-path "base/ido-ubiquitous")
 
 (require 'ido)
 (require 'ido-ubiquitous)

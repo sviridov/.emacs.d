@@ -1,5 +1,5 @@
 
-(add-to-load-path "code/paredit")
+(add-load-path "code/paredit")
 
 (require 'paredit)
 

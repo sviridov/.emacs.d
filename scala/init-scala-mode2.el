@@ -1,5 +1,5 @@
 
-(add-to-load-path "scala/scala-mode2")
+(add-load-path "scala/scala-mode2")
 
 (autoload 'scala-mode "scala-mode2" "Scala major mode" t)
 

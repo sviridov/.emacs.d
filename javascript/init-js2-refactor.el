@@ -1,5 +1,5 @@
 
-(add-to-load-path "javascript/js2-refactor")
+(add-load-path "javascript/js2-refactor")
 
 (require 'js2-refactor)
 

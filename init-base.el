@@ -1,5 +1,5 @@
 
-(add-to-load-path "base")
+(add-load-path "base")
 
 (setq scroll-step 1)
 

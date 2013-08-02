@@ -1,5 +1,5 @@
 
-(add-to-load-path "code/smart-forward")
+(add-load-path "code/smart-forward")
 
 (require 'smart-forward)
 

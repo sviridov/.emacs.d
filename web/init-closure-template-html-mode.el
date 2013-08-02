@@ -1,5 +1,5 @@
 
-(add-to-load-path "web/closure-template-html-mode")
+(add-load-path "web/closure-template-html-mode")
 
 (autoload 'closure-template-html-mode "closure-template-html-mode"
   "Major mode for editing Closure Template code." t)

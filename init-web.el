@@ -1,5 +1,5 @@
 
-(add-to-load-path "web")
+(add-load-path "web")
 
 (require 'init-emmet-mode)
 (require 'init-closure-template-html-mode)

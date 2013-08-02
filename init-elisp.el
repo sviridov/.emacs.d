@@ -1,5 +1,5 @@
 
-(add-to-load-path "elisp")
+(add-load-path "elisp")
 
 (defun eval-and-replace ()
   (interactive)

@@ -1,5 +1,5 @@
 
-(add-to-load-path "code")
+(add-load-path "code")
 
 (require 'init-code-editing-keybindings)
 (require 'init-yasnippet)

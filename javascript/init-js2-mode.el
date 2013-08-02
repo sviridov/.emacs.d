@@ -1,5 +1,5 @@
 
-(add-to-load-path "javascript/js2-mode")
+(add-load-path "javascript/js2-mode")
 
 (autoload 'js2-mode "js2-mode" "Major mode for editing JavaScript code." t)
 

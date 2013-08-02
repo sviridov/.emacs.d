@@ -1,5 +1,5 @@
 
-(add-to-load-path "javascript")
+(add-load-path "javascript")
 
 (require 'init-js2-mode)
 (require 'init-js2-refactor)

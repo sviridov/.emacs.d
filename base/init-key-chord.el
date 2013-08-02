@@ -1,5 +1,5 @@
 
-(add-to-load-path "base/key-chord")
+(add-load-path "base/key-chord")
 
 (require 'key-chord)
 

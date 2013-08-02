@@ -1,5 +1,5 @@
 
-(add-to-load-path "base/smex")
+(add-load-path "base/smex")
 
 (require 'smex)
 

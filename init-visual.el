@@ -1,5 +1,5 @@
 
-(add-to-load-path "visual")
+(add-load-path "visual")
 
 (require 'init-bars)
 (require 'init-solarized-emacs)

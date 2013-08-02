@@ -1,5 +1,5 @@
 
-(add-to-load-path "base/magit")
+(add-load-path "base/magit")
 
 (require 'magit)
 

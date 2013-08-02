@@ -1,5 +1,5 @@
 
-(add-to-load-path "elisp/elisp-slime-nav")
+(add-load-path "elisp/elisp-slime-nav")
 
 (require 'elisp-slime-nav)
 

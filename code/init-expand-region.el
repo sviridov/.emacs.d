@@ -1,5 +1,5 @@
 
-(add-to-load-path "code/expand-region")
+(add-load-path "code/expand-region")
 
 (require 'expand-region)
 

@@ -1,5 +1,5 @@
 
-(add-to-load-path "javascript/skewer-mode")
+(add-load-path "javascript/skewer-mode")
 
 (autoload 'run-skewer "skewer-mode" "REPL for JavaScript development" t)
 
