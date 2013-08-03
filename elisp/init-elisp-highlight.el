@@ -32,6 +32,7 @@
       (highlight-emacs-lisp-function . 'font-lock-function-name-face)
       (highlight-emacs-lisp-compiled-or-primitive-function . 'font-lock-builtin-face)
   ;   (highlight-emacs-lisp-global-variable . 'font-lock-variable-name-face)
-      )))
+      )
+    t))
 
 (provide 'init-elisp-highlight)
