@@ -20,6 +20,7 @@
 (add-hook 'ielm-mode-hook 'eldoc-mode)
 
 (require 'init-elisp-slime-nav)
+(require 'init-elisp-highlight)
 (require 'init-litable)
 
 (provide 'init-elisp)
