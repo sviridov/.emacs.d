@@ -6,7 +6,8 @@
      (unless (re-search-forward "[^() \"\t\n',@]+" limit t)
        (return nil))
 
-     (when (funcall (lambda (symbol) ,selector) (intern-soft (buffer-substring (match-beginning 0) (match-end 0))))
+     (when (funcall (lambda (symbol) (ignore-errors ,selector))
+                    (intern-soft (buffer-substring (match-beginning 0) (match-end 0))))
        (set-match-data (list (match-beginning 0) (match-end 0)))
        (return t)))))
 
