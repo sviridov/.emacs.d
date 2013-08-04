@@ -79,3 +79,6 @@
 [submodule "web/emmet-mode"]
 	path = web/emmet-mode
 	url = https://github.com/smihica/emmet-mode.git
+[submodule "clojure/nrepl"]
+	path = clojure/nrepl
+	url = https://github.com/clojure-emacs/nrepl.el.git

@@ -1,5 +1,5 @@
 
-(add-to-list 'load-path "~/.emacs.d/clojure/clojure-mode")
+(add-load-path "clojure/clojure-mode")
 
 (autoload 'clojure-mode "clojure-mode" "Major mode for editing Clojure code." t)
 

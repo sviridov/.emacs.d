@@ -1,7 +1,7 @@
 
-(add-to-list 'load-path "~/.emacs.d/clojure")
+(add-load-path "clojure")
 
 (require 'init-clojure-mode)
-(require 'init-clojure-slime)
+(require 'init-nrepl)
 
 (provide 'init-clojure)

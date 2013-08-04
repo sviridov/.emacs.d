@@ -10,6 +10,9 @@
 (add-hook 'lisp-interaction-mode-hook            #'enable-paredit-mode)
 (add-hook 'scheme-mode-hook                      #'enable-paredit-mode)
 
+(eval-after-load "nrepl"
+  '(add-hook 'nrepl-mode-hook #'enable-paredit-mode))
+
 (require 'eldoc)
 
 (eldoc-add-command
