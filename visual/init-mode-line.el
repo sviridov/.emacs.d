@@ -1,8 +1,7 @@
 
 (column-number-mode 1)
 
-(setq display-time-day-and-date t
-      display-time-24hr-format  t)
+(setq display-time-format "%d.%m.%Y %H:%M")
 
 (display-time)
 
