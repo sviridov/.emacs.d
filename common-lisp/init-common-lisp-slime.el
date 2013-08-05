@@ -9,7 +9,7 @@
     (slime-setup '(slime-repl slime-fancy slime-fuzzy slime-fancy-inspector slime-indentation))
 
     (setq slime-complete-symbol-function 'slime-fuzzy-complete-symbol
-          common-lisp-hyperspec-root (concat user-emacs-directory "common-lisp/HyperSpec/"))
+          common-lisp-hyperspec-root (concat "/home/" (user-login-name) "/.emacs.d/common-lisp/HyperSpec/"))
 
     (define-key slime-mode-map (kbd "TAB")
       'slime-indent-and-complete-symbol)
