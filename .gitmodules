@@ -82,3 +82,6 @@
 [submodule "clojure/nrepl"]
 	path = clojure/nrepl
 	url = https://github.com/clojure-emacs/nrepl.el.git
+[submodule "base/markdown-mode"]
+	path = base/markdown-mode
+	url = https://github.com/defunkt/markdown-mode.git

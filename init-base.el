@@ -28,5 +28,6 @@
 (require 'init-fullscreen)
 (require 'init-windmove)
 (require 'init-popup)
+(require 'init-markdown-mode)
 
 (provide 'init-base)
