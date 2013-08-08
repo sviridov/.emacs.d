@@ -11,4 +11,8 @@
 
 (copy-face 'mode-line 'mode-line-inactive)
 
+(add-hook 'after-make-frame-functions
+         #'(lambda (ignore)
+            (copy-face 'mode-line 'mode-line-inactive)))
+
 (provide 'init-solarized-emacs)
