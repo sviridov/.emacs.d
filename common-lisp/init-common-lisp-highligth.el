@@ -18,7 +18,7 @@
         (return t))))))
 
 (define-common-lisp-symbols-highlighter highlight-common-lisp-macro
-  (concatenate 'string "(macro-function '" symbol-string ")"))
+  (concatenate 'string "(and (symbolp '" symbol-string ") (macro-function '" symbol-string "))"))
 
 (eval-after-load "slime"
  `(font-lock-add-keywords 'lisp-mode
