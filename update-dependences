@@ -1,0 +1,19 @@
+#!/bin/bash
+
+UPDATED_DEPENDENCES=""
+
+for DIR in $(git submodule | awk '{ print $2 }')
+do echo $DIR:
+   echo ===========================
+   cd ~/.emacs.d/$DIR
+   git fetch
+   git merge origin/master --ff-only
+   cd ~/.emacs.d/
+   git status --porcelain | awk 'match($1, "M"){print $2}' | fgrep -q $DIR && git add $DIR && UPDATED_DEPENDENCES="$UPDATED_DEPENDENCES `basename $DIR`"
+   echo ===========================
+   echo
+done
+
+if [ -n "$UPDATED_DEPENDENCES" ]; then
+   git commit -m "Updated dependences:$UPDATED_DEPENDENCES"
+fi
