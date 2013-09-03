@@ -85,3 +85,6 @@
 [submodule "base/markdown-mode"]
 	path = base/markdown-mode
 	url = https://github.com/defunkt/markdown-mode.git
+[submodule "base/git-modes"]
+	path = base/git-modes
+	url = https://github.com/magit/git-modes.git
