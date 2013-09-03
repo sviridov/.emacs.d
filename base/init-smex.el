@@ -3,7 +3,7 @@
 
 (require 'smex)
 
-(setq-default smex-save-file (concat user-emacs-directory ".smex"))
+(setq-default smex-save-file "~/.smex")
 
 (smex-initialize)
 

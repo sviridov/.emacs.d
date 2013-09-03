@@ -6,7 +6,7 @@
 
 (setq ido-enable-flex-matching t
       ido-everywhere t
-      ido-save-directory-list-file (concat user-emacs-directory ".ido.last"))
+      ido-save-directory-list-file "~/.ido.last")
 
 (ido-mode 1)
 (ido-ubiquitous-mode 1)

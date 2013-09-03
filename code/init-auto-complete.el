@@ -9,7 +9,7 @@
 
 (setq ac-auto-start  t
       ac-dictionary-directories (list (concat user-emacs-directory "code/auto-complete/dict"))
-      ac-comphist-file          (concat user-emacs-directory ".comphist.dat"))
+      ac-comphist-file          "~/.comphist.dat")
 
 (ac-config-default)
 
