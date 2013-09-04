@@ -14,6 +14,18 @@
 (defskewer-start firefox  "firefox" )
 (defskewer-start chrome   "google-chrome")
 
+(defun phantomjs ()
+  (interactive)
+  (require 'simple-httpd)
+  (require 'skewer-mode)
+  (httpd-start)
+  (let ((script (make-temp-file "phantomjs-"))
+        (url (format "http://0:%d/skewer/demo" httpd-port)))
+    (with-temp-buffer
+      (insert (format "require('webpage').create().open('%s')" url))
+      (write-region (point-min) (point-max) script)
+      (start-process "phantomjs" nil "/usr/bin/phantomjs" script))))
+
 (add-hook 'js2-mode-hook  'skewer-mode)
 
 (defun js2-eval-friendly-node-p (n)
