@@ -1,5 +1,5 @@
 # name: (defclass (...) (...) ...)
 # key: defclass
 # --
-(defclass ${1:name} ($2) 
+(defclass ${1:name} ($2)
   ($3)$0)
