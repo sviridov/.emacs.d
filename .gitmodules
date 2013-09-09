@@ -88,3 +88,6 @@
 [submodule "base/git-modes"]
 	path = base/git-modes
 	url = https://github.com/magit/git-modes.git
+[submodule "ruby/inf-ruby"]
+	path = ruby/inf-ruby
+	url = https://github.com/nonsequitur/inf-ruby.git
