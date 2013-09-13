@@ -91,3 +91,6 @@
 [submodule "ruby/inf-ruby"]
 	path = ruby/inf-ruby
 	url = https://github.com/nonsequitur/inf-ruby.git
+[submodule "gap/gap-mode"]
+	path = gap/gap-mode
+	url = https://github.com/emacsmirror/gap-mode.git

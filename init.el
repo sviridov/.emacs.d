@@ -14,4 +14,5 @@
 (require 'init-javascript)
 (require 'init-scala)
 (require 'init-ruby)
+(require 'init-gap)
 (require 'init-web)
