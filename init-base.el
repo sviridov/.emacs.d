@@ -29,5 +29,6 @@
 (require 'init-windmove)
 (require 'init-popup)
 (require 'init-markdown-mode)
+(require 'init-unicode)
 
 (provide 'init-base)
