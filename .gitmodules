@@ -94,3 +94,6 @@
 [submodule "gap/gap-mode"]
 	path = gap/gap-mode
 	url = https://github.com/emacsmirror/gap-mode.git
+[submodule "ruby/rhtml"]
+	path = ruby/rhtml
+	url = https://github.com/eschulte/rhtml.git
