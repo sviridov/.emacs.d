@@ -16,7 +16,9 @@
                      ("right arrow" . "right arrow")
                      ("left arrow"  . "left arrow")
                      ("lt" . "less-than or equal to")
-                     ("gt" . "greater-than or equal to")))
+                     ("gt" . "greater-than or equal to")
+
+                     ("Ss" . "section sign")))
 
   (setf (gethash (car shortname) unicode-shortnames-table) (cdr shortname)))
 
