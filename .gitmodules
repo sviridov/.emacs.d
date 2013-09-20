@@ -97,3 +97,6 @@
 [submodule "ruby/rhtml"]
 	path = ruby/rhtml
 	url = https://github.com/eschulte/rhtml.git
+[submodule "web/yaml-mode"]
+	path = web/yaml-mode
+	url = https://github.com/yoshiki/yaml-mode.git
