@@ -100,3 +100,6 @@
 [submodule "web/yaml-mode"]
 	path = web/yaml-mode
 	url = https://github.com/yoshiki/yaml-mode.git
+[submodule "coffeescript/coffee-mode"]
+	path = coffeescript/coffee-mode
+	url = https://github.com/defunkt/coffee-mode.git

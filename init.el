@@ -12,6 +12,7 @@
 (require 'init-elisp)
 (require 'init-clojure)
 (require 'init-javascript)
+(require 'init-coffeescript)
 (require 'init-scala)
 (require 'init-ruby)
 (require 'init-gap)
