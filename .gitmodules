@@ -103,3 +103,6 @@
 [submodule "coffeescript/coffee-mode"]
 	path = coffeescript/coffee-mode
 	url = https://github.com/defunkt/coffee-mode.git
+[submodule "web/haml-mode"]
+	path = web/haml-mode
+	url = https://github.com/nex3/haml-mode.git
