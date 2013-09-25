@@ -6,7 +6,7 @@
 	url = git://github.com/magit/magit.git
 [submodule "base/ido-ubiquitous"]
 	path = base/ido-ubiquitous
-	url = git://github.com/technomancy/ido-ubiquitous.git
+	url = git://github.com/DarwinAwardWinner/ido-ubiquitous.git
 [submodule "base/dash"]
 	path = base/dash
 	url = git://github.com/magnars/dash.el.git
