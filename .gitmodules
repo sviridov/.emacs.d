@@ -106,3 +106,6 @@
 [submodule "web/haml-mode"]
 	path = web/haml-mode
 	url = https://github.com/nex3/haml-mode.git
+[submodule "web/scss-mode"]
+	path = web/scss-mode
+	url = https://github.com/antonj/scss-mode.git
