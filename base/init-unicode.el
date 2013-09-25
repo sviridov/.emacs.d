@@ -22,13 +22,15 @@
 
   (setf (gethash (car shortname) unicode-shortnames-table) (cdr shortname)))
 
-(defun insert-unicode-char ()
-  (interactive)
+(defun insert-unicode-char (arg)
+  (interactive "P")
   (let ((charname (gethash
                    (completing-read "Insert character (Unicode name or hex):"
                      (cl-loop for key being the hash-key in unicode-shortnames-table
                               collect key))
                    unicode-shortnames-table)))
+    (when arg
+      (insert "\\"))
     (insert-char (cdr (assoc-string charname (ucs-names) t)))))
 
 (global-set-key (kbd "M-<insert>") #'insert-unicode-char)
