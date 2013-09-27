@@ -29,7 +29,7 @@
                      (cl-loop for key being the hash-key in unicode-shortnames-table
                               collect key))
                    unicode-shortnames-table)))
-    (when arg
+    (when (and arg charname)
       (insert "\\"))
     (insert-char (cdr (assoc-string charname (ucs-names) t)))))
 
