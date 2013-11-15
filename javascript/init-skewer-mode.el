@@ -2,6 +2,7 @@
 (add-load-path "javascript/skewer-mode")
 
 (autoload 'run-skewer "skewer-mode" "REPL for JavaScript development" t)
+(autoload 'skewer-mode "skewer-mode" "REPL for JavaScript development" t)
 
 (defmacro defskewer-start (name browser)
  `(defun ,name ()
@@ -26,7 +27,7 @@
       (write-region (point-min) (point-max) script)
       (start-process "phantomjs" nil "/usr/bin/phantomjs" script))))
 
-(add-hook 'js2-mode-hook  'skewer-mode)
+(add-hook 'js2-mode-hook 'skewer-mode)
 
 (defun js2-eval-friendly-node-p (n)
   (or (and (js2-stmt-node-p n) (not (js2-block-node-p n)))
