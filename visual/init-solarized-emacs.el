@@ -1,7 +1,5 @@
 
-(add-load-path "visual/solarized-emacs")
-
-(add-to-list 'custom-theme-load-path (concat user-emacs-directory "visual/solarized-emacs"))
+(require-package 'solarized-theme)
 
 (add-to-list 'custom-safe-themes 'solarized-dark)
 
