@@ -24,7 +24,6 @@
 (require 'init-quick-repl-history-search)
 (require 'init-dictem)
 (require 'init-minibuffer)
-(require 'init-key-chord)
 (require 'init-fullscreen)
 (require 'init-windmove)
 (require 'init-popup)
