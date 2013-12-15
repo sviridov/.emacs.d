@@ -1,6 +1,4 @@
 
-(load "~/quicklisp/slime-helper.el")
-
 (autoload 'slime "slime" "The Superior Lisp Interaction Mode for Emacs" t)
 (autoload 'slime-connect "slime" "Connect to an already-running `swank' server" t)
 
@@ -19,6 +17,7 @@
 (defmacro defslime-start (name lisp)
  `(defun ,name ()
     (interactive)
+    (load "~/quicklisp/slime-helper.el")
     (slime ,lisp)))
 
 (setq inferior-lisp-program "sbcl")
@@ -28,6 +27,7 @@
 
 (defun slime-remote ()
   (interactive)
+  (load "~/quicklisp/slime-helper.el")
   (slime-connect "127.0.0.1" 4005))
 
 (provide 'init-common-lisp-slime)

@@ -6,8 +6,8 @@
       dired-recursive-deletes 'top
       dired-dwim-target t)
 
-(global-set-key (kbd "C-x C-j") 'dired-jump)
-
 (put 'dired-find-alternate-file 'disabled nil)
+
+(global-set-key (kbd "C-x C-j") 'dired-jump)
 
 (provide 'init-dired)

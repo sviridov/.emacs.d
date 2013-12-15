@@ -1,11 +1,14 @@
 
 (add-load-path "base/smex")
 
-(require 'smex)
+(autoload 'smex "smex" nil t)
+(autoload 'smex-major-mode-commands "smex" nil t)
+(autoload 'execute-extended-command "smex" nil t)
 
 (setq-default smex-save-file "~/.smex")
 
-(smex-initialize)
+(eval-after-load "smex"
+ '(smex-initialize))
 
 (global-set-key (kbd "M-x"    ) 'smex                    )
 (global-set-key (kbd "M-X"    ) 'smex-major-mode-commands)
