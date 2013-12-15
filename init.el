@@ -4,6 +4,7 @@
 
 (add-load-path)
 
+(require 'init-package)
 (require 'init-visual)
 (require 'init-base)
 (require 'init-code)
