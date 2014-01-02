@@ -1,6 +1,7 @@
 
-(add-load-path "base/magit")
-(add-load-path "base/git-modes")
+(require-package 'magit)
+(require-package 'git-commit-mode)
+(require-package 'git-rebase-mode)
 
 (autoload 'magit-status "magit" "Emacs Major mode for git" t)
 

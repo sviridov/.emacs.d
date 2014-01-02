@@ -1,5 +1,5 @@
 
-(add-load-path "code/yasnippet")
+(require-package 'yasnippet)
 
 (autoload 'yas/global-mode "yasnippet" nil t)
 

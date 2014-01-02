@@ -1,5 +1,5 @@
 
-(add-load-path "base/multiple-cursors")
+(require-package 'multiple-cursors)
 
 (dolist (function '(set-rectangular-region-anchor
                     mc/mark-previous-like-this

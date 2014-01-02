@@ -1,5 +1,5 @@
 
-(add-load-path "coffeescript/coffee-mode")
+(require-package 'coffee-mode)
 
 (autoload 'coffee-mode "coffee-mode" "Major CoffeeScript mode" t)
 (autoload 'coffee-repl "coffee-mode" "Major CoffeeScript REPL mode" t)

@@ -1,5 +1,5 @@
 
-(add-load-path "javascript/js2-refactor")
+(require-package 'js2-refactor)
 
 (eval-after-load "js2-mode"
  '(progn

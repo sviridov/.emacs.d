@@ -1,5 +1,5 @@
 
-(add-load-path "code/expand-region")
+(require-package 'expand-region)
 
 (autoload 'er/expand-region "expand-region" nil t)
 

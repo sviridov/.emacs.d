@@ -1,5 +1,5 @@
 
-(add-load-path "elisp/elisp-slime-nav")
+(require-package 'elisp-slime-nav)
 
 (autoload 'elisp-slime-nav-mode "elisp-slime-nav" nil t)
 

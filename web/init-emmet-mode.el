@@ -1,5 +1,5 @@
 
-(add-to-list 'load-path "~/.emacs.d/web/emmet-mode/")
+(require-package 'emmet-mode)
 
 (autoload 'emmet-mode "emmet-mode" "Emmet minor mode." t)
 

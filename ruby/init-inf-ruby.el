@@ -1,5 +1,5 @@
 
-(add-load-path "ruby/inf-ruby")
+(require-package 'inf-ruby)
 
 (autoload 'inf-ruby "inf-ruby" "Run an inferior Ruby process" t)
 (autoload 'inf-ruby-console-auto "inf-ruby" "Run an inferior project-specific Ruby process" t)

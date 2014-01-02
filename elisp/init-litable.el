@@ -1,5 +1,5 @@
 
-(add-load-path "elisp/litable")
+(require-package 'litable)
 
 (autoload 'litable-mode "litable" "litable minor mode" t)
 

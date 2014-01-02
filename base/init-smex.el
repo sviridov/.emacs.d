@@ -1,5 +1,5 @@
 
-(add-load-path "base/smex")
+(require-package 'smex)
 
 (autoload 'smex "smex" nil t)
 (autoload 'smex-major-mode-commands "smex" nil t)

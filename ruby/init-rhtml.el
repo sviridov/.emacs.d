@@ -1,5 +1,5 @@
 
-(add-load-path "ruby/rhtml")
+(require-package 'rhtml-mode)
 
 (autoload 'rhtml-mode "rhtml-mode" nil t)
 

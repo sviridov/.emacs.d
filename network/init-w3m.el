@@ -1,5 +1,5 @@
 
-(add-load-path "network/w3m")
+(require-package 'w3m)
 
 (autoload 'w3m-browse-url "w3m" "w3m browser function" t)
 

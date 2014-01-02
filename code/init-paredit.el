@@ -1,5 +1,5 @@
 
-(add-load-path "code/paredit")
+(require-package 'paredit)
 
 (autoload 'enable-paredit-mode "paredit" nil t)
 

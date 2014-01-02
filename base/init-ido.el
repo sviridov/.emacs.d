@@ -1,5 +1,5 @@
 
-(add-load-path "base/ido-ubiquitous")
+(require-package 'ido-ubiquitous)
 
 (dolist (function '(ido-find-file ido-switch-buffer))
   (autoload function "ido" nil t))

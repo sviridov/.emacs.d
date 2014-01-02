@@ -1,5 +1,5 @@
 
-(add-load-path "clojure/clojure-mode")
+(require-package 'clojure-mode)
 
 (autoload 'clojure-mode "clojure-mode" "Major mode for editing Clojure code." t)
 

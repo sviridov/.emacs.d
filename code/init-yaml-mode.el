@@ -1,5 +1,5 @@
 
-(add-load-path "web/yaml-mode")
+(require-package 'yaml-mode)
 
 (autoload 'yaml-mode "yaml-mode" nil t)
 

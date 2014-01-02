@@ -1,5 +1,5 @@
 
-(add-load-path "code/smart-forward")
+(require-package 'smart-forward)
 
 (dolist (function '(smart-up
                     smart-down

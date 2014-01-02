@@ -1,6 +1,13 @@
 
-(add-load-path "base/s")
-(add-load-path "base/dash")
-(add-load-path "base/emacs-http-server")
+(require-package 's)
+(require-package 'dash)
+(require-package 'dash-functional)
+(require-package 'f)
+(require-package 'simple-httpd)
+
+(require 's)
+(require 'dash)
+(require 'dash-functional)
+(require 'f)
 
 (provide 'init-libraries)

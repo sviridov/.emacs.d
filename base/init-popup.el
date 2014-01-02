@@ -1,5 +1,5 @@
 
-(add-load-path "base/popup")
+(require-package 'popup)
 
 (eval-after-load "popup"
  '(progn

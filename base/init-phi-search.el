@@ -1,5 +1,5 @@
 
-(add-load-path "base/phi-search")
+(require-package 'phi-search)
 
 (autoload 'phi-search "phi-search" nil t)
 

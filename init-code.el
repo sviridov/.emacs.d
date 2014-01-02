@@ -7,5 +7,6 @@
 (require 'init-smart-forward)
 (require 'init-auto-complete)
 (require 'init-paredit)
+(require 'init-yaml-mode)
 
 (provide 'init-code)

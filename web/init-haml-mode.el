@@ -1,5 +1,5 @@
 
-(add-load-path "web/haml-mode")
+(require-package 'haml-mode)
 
 (autoload 'haml-mode "haml-mode" nil t)
 

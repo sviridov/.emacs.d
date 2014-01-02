@@ -1,5 +1,5 @@
 
-(add-load-path "clojure/nrepl")
+(require-package 'nrepl)
 
 (autoload 'nrepl-jack-in "nrepl" "Launch an nREPL server and a nREPL client" t)
 (autoload 'nrepl "nrepl" "Connect to an already-running nREPL server" t)

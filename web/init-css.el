@@ -1,5 +1,5 @@
 
-(add-load-path "web/scss-mode")
+(require-package 'scss-mode)
 
 (setq css-indent-offset 2)
 
