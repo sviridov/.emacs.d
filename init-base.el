@@ -30,5 +30,6 @@
 (require 'init-popup)
 (require 'init-markdown-mode)
 (require 'init-unicode)
+(require 'init-kill-ring)
 
 (provide 'init-base)
