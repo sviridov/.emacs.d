@@ -8,5 +8,6 @@
 (require 'init-auto-complete)
 (require 'init-paredit)
 (require 'init-yaml-mode)
+(require 'init-flycheck)
 
 (provide 'init-code)
