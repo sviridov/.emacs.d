@@ -7,7 +7,7 @@
 (package-initialize)
 
 (dolist (archive '("gnu" "melpa" "marmalade"))
-  (unless (file-exists-p (concat user-emacs-directory "elpa/archives/" archive))
+  (unless (file-exists-p (in-user-emacs-directory (concat "elpa/archives/" archive)))
     (package-refresh-contents)))
 
 (defun require-package (package &optional no-refresh)

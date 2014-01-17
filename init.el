@@ -1,6 +1,9 @@
 
+(defun in-user-emacs-directory (path)
+  (concat user-emacs-directory path))
+
 (defun add-load-path (&optional path)
-  (add-to-list 'load-path (concat user-emacs-directory path)))
+  (add-to-list 'load-path (in-user-emacs-directory path)))
 
 (add-load-path)
 
