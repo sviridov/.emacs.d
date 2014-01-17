@@ -31,5 +31,6 @@
 (require 'init-markdown-mode)
 (require 'init-unicode)
 (require 'init-kill-ring)
+(require 'init-projectile)
 
 (provide 'init-base)
