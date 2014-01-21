@@ -6,7 +6,7 @@
 (require 'init-expand-region)
 (require 'init-smart-forward)
 (require 'init-auto-complete)
-(require 'init-paredit)
+(require 'init-smartparens)
 (require 'init-yaml-mode)
 (require 'init-flycheck)
 
