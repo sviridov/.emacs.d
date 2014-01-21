@@ -51,6 +51,7 @@
 (define-key sp-keymap (kbd "C-S-<right>") 'sp-add-to-next-sexp)
 (define-key sp-keymap (kbd "M-J") 'sp-join-sexp)
 (define-key sp-keymap (kbd "M-S") 'sp-split-sexp)
+(define-key sp-keymap (kbd "C-M-R") 'sp-rewrap-sexp)
 
 (sp-with-modes sp--lisp-modes
   (sp-local-pair "(" nil :bind "C-("))
