@@ -1,8 +1,6 @@
 
 (require-package 'yasnippet)
 
-(autoload 'yas/global-mode "yasnippet" nil t)
-
 (eval-after-load "yasnippet"
  '(setq yas-prompt-functions '(yas-ido-prompt)
         yas-snippet-dirs (list (in-user-emacs-directory "config/code/snippets"))))
