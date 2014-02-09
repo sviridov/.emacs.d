@@ -8,7 +8,7 @@
 (global-auto-complete-mode t)
 
 (setq ac-auto-start  t
-      ac-dictionary-directories (list (in-user-emacs-directory "code/auto-complete/dict"))
+      ac-dictionary-directories (list (in-user-emacs-directory "config/code/auto-complete/dict"))
       ac-comphist-file          "~/.comphist.dat")
 
 (ac-config-default)

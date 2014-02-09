@@ -5,7 +5,7 @@
 
 (eval-after-load "yasnippet"
  '(setq yas-prompt-functions '(yas-ido-prompt)
-        yas-snippet-dirs (list (in-user-emacs-directory "code/snippets"))))
+        yas-snippet-dirs (list (in-user-emacs-directory "config/code/snippets"))))
 
 (dolist (mode '("c-mode"
                 "c++-mode"
