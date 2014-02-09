@@ -1,7 +1,7 @@
 
 (require-package 'markdown-mode)
 
-(dolist (pattern '("\\.text\\'" "\\.markdown\\'" "\\.md\\'"))
-  (add-to-list 'auto-mode-alist `(,pattern . markdown-mode)))
+(--each '("\\.text\\'" "\\.markdown\\'" "\\.md\\'")
+  (add-to-list 'auto-mode-alist `(,it . markdown-mode)))
 
 (provide 'init-markdown-mode)
