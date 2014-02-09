@@ -5,7 +5,10 @@
 (defun add-load-path (&optional path)
   (add-to-list 'load-path (in-user-emacs-directory path)))
 
-(add-load-path)
+(defun add-config-load-path (&optional path)
+  (add-load-path (concat "config/" path)))
+
+(add-config-load-path)
 
 (require 'init-package)
 (require 'init-visual)

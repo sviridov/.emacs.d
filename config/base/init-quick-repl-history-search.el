@@ -1,5 +1,5 @@
 
-(add-load-path "base/quick-repl-history-search")
+(add-config-load-path "base/quick-repl-history-search")
 
 (require 'quick-repl-history-search)
 

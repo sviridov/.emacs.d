@@ -8,4 +8,4 @@ tramp
 session.*
 swank
 *.elc
-common-lisp/HyperSpec
+config/common-lisp/HyperSpec

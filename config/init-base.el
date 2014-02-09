@@ -1,5 +1,5 @@
 
-(add-load-path "base")
+(add-config-load-path "base")
 
 (setq scroll-step 1
       make-pointer-invisible t)

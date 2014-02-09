@@ -8,8 +8,6 @@
  '(inf-ruby-switch-setup))
 
 (eval-after-load 'ruby-mode
- `(progn
-    (require 'inf-ruby)
-    (add-hook 'ruby-mode-hook 'inf-ruby-minor-mode)))
+ `(add-hook 'ruby-mode-hook 'inf-ruby-minor-mode))
 
 (provide 'init-inf-ruby)

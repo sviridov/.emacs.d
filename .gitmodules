@@ -1,9 +1,9 @@
-[submodule "base/quick-repl-history-search"]
-	path = base/quick-repl-history-search
+[submodule "config/base/quick-repl-history-search"]
+	path = config/base/quick-repl-history-search
 	url = git@github.com:sviridov/quick-repl-history-search.git
-[submodule "base/dictem"]
-	path = base/dictem
+[submodule "config/base/dictem"]
+	path = config/base/dictem
 	url = git://github.com/cheusov/dictem.git
-[submodule "common-lisp/ido-ql-quickload"]
-	path = common-lisp/ido-ql-quickload
+[submodule "config/common-lisp/ido-ql-quickload"]
+	path = config/common-lisp/ido-ql-quickload
 	url = git://github.com/sviridov/ido-ql-quickload.git

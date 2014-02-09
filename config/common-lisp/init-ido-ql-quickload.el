@@ -1,5 +1,5 @@
 
-(add-load-path "common-lisp/ido-ql-quickload")
+(add-config-load-path "common-lisp/ido-ql-quickload")
 
 (autoload 'ql:quickload "ido-ql-quickload" "ido-ql-quickload command" t)
 

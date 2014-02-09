@@ -1,5 +1,5 @@
 
-(add-load-path "base/dictem")
+(add-config-load-path "base/dictem")
 
 (dolist (function '(dictem-run-en-en
                     dictem-run-en-ru

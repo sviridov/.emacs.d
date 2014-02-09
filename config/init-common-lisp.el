@@ -1,5 +1,5 @@
 
-(add-load-path "common-lisp")
+(add-config-load-path "common-lisp")
 
 (require 'init-common-lisp-rc-files)
 (require 'init-common-lisp-slime)

@@ -1,5 +1,5 @@
 
-(add-load-path "visual")
+(add-config-load-path "visual")
 
 (require 'init-bars)
 (require 'init-color-theme)

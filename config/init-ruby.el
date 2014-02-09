@@ -1,9 +1,9 @@
 
-(add-load-path "ruby")
+(add-config-load-path "ruby")
 
-(require 'init-inf-ruby)
 (require 'init-rvm)
 (require 'init-rubocop)
+;(require 'init-inf-ruby)
 (require 'init-rhtml)
 
 (provide 'init-ruby)

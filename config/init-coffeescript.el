@@ -1,5 +1,5 @@
 
-(add-load-path "coffeescript")
+(add-config-load-path "coffeescript")
 
 (require 'init-coffee-mode)
 
