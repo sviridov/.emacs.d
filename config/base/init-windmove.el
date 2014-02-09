@@ -20,8 +20,8 @@
 (define-toggle-windows-function "left")
 (define-toggle-windows-function "right")
 
-(dolist (direction '("up" "down" "left" "right"))
-  (global-set-key (kbd (concat "s-M-<" direction ">"))
-    (symbol-function (toggle-windows--function-symbol direction))))
+(--each '("up" "down" "left" "right")
+  (global-set-key (kbd (concat "s-M-<" it ">"))
+    (symbol-function (toggle-windows--function-symbol it))))
 
 (provide 'init-windmove)
