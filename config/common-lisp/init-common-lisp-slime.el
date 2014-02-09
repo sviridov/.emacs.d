@@ -1,7 +1,4 @@
 
-(autoload 'slime "slime" "The Superior Lisp Interaction Mode for Emacs" t)
-(autoload 'slime-connect "slime" "Connect to an already-running `swank' server" t)
-
 (eval-after-load "slime"
  '(progn
     (slime-setup '(slime-repl slime-fancy slime-fuzzy slime-fancy-inspector slime-indentation))

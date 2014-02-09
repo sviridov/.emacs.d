@@ -1,8 +1,6 @@
 
 (require-package 'ensime)
 
-(autoload 'ensime "ensime" "The ENhanced Scala Interaction Mode for Emacs" t)
-
 (eval-after-load 'ensime
  `(progn
     (setq ensime-default-server-cmd

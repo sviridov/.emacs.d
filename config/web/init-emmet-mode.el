@@ -1,8 +1,6 @@
 
 (require-package 'emmet-mode)
 
-(autoload 'emmet-mode "emmet-mode" "Emmet minor mode." t)
-
 (add-hook 'sgml-mode-hook 'emmet-mode)
 
 (eval-after-load "emmet-mode"

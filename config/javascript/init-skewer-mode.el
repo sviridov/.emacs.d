@@ -1,9 +1,6 @@
 
 (require-package 'skewer-mode)
 
-(autoload 'run-skewer "skewer-mode" "REPL for JavaScript development" t)
-(autoload 'skewer-mode "skewer-mode" "REPL for JavaScript development" t)
-
 (defmacro defskewer-start (name browser)
  `(defun ,name ()
     (interactive)
