@@ -1,8 +1,5 @@
 
-(add-config-load-path "clojure/cider")
-
-(autoload 'cider-jack-in "cider" "Launch an nREPL server and a Cider client" t)
-(autoload 'cider "cider" "Connect to an already-running nREPL server" t)
+(require-package 'cider)
 
 (eval-after-load "cider"
  '(progn
