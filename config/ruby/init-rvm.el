@@ -1,7 +1,6 @@
 
 (require-package 'rvm)
 
-(eval-after-load "ruby-mode"
- '(rvm-use-default))
+(add-hook 'ruby-mode-hook #'rvm-activate-corresponding-ruby)
 
 (provide 'init-rvm)
