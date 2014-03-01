@@ -31,5 +31,6 @@
 (require 'init-unicode)
 (require 'init-kill-ring)
 (require 'init-projectile)
+(require 'init-editorconfig)
 
 (provide 'init-base)
