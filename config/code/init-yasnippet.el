@@ -11,8 +11,8 @@
           "ruby-mode"
           "slime-repl-mode")
   (eval-after-load it
-    (add-hook (intern (concat it "-hook"))
-              (lambda () (yas-global-mode 1)))))
+   `(add-hook ',(intern (concat it "-hook"))
+                (lambda () (yas-global-mode 1)))))
 
 (add-hook 'after-init-hook
   (lambda ()

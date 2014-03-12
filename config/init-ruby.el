@@ -3,7 +3,7 @@
 
 (require 'init-rvm)
 (require 'init-rubocop)
-;(require 'init-inf-ruby)
+(require 'init-inf-ruby)
 (require 'init-rhtml)
 
 (provide 'init-ruby)
