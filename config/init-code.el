@@ -5,7 +5,7 @@
 (require 'init-yasnippet)
 (require 'init-expand-region)
 (require 'init-smart-forward)
-(require 'init-auto-complete)
+(require 'init-company)
 (require 'init-smartparens)
 (require 'init-yaml-mode)
 (require 'init-flycheck)

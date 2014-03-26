@@ -26,7 +26,6 @@
 (require 'init-dictem)
 (require 'init-minibuffer)
 (require 'init-windmove)
-(require 'init-popup)
 (require 'init-markdown-mode)
 (require 'init-unicode)
 (require 'init-kill-ring)
