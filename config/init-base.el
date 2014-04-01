@@ -8,8 +8,6 @@
 	      auto-save-defaults  t
 	      indent-tabs-mode  nil)
 
-(put 'narrow-to-region 'disabled nil)
-
 (require 'init-startup)
 (require 'init-smex)
 (require 'init-org)
@@ -31,5 +29,6 @@
 (require 'init-kill-ring)
 (require 'init-projectile)
 (require 'init-editorconfig)
+(require 'init-fancy-narrow)
 
 (provide 'init-base)
