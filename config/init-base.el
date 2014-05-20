@@ -2,7 +2,8 @@
 (add-config-load-path "base")
 
 (setq scroll-step 1
-      make-pointer-invisible t)
+      make-pointer-invisible t
+      frame-title-format "%b@Emacs")
 
 (setq-default make-backup-files nil
 	      auto-save-defaults  t
