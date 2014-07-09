@@ -31,5 +31,6 @@
 (require 'init-projectile)
 (require 'init-editorconfig)
 (require 'init-fancy-narrow)
+(require 'init-git-gutter)
 
 (provide 'init-base)
