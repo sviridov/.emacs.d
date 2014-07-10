@@ -9,4 +9,6 @@
 
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
 
+(push '(projectile-tags-command . "ripper-tags -R -f") safe-local-variable-values)
+
 (provide 'init-projectile)
