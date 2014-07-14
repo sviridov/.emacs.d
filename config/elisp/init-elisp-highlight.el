@@ -8,7 +8,6 @@
 
      (when ((lambda ,args ,selector)
             (intern-soft (buffer-substring (match-beginning 0) (match-end 0))))
-       (set-match-data (list (match-beginning 0) (match-end 0)))
        (return t)))))
 
 (define-emacs-lisp-symbols-highlighter highlight-emacs-lisp-macro (symbol)
