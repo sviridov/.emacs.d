@@ -1,5 +1,6 @@
 
 (require-package 'scss-mode)
+(require-package 'less-css-mode)
 
 (setq css-indent-offset 2)
 
