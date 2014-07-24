@@ -28,9 +28,10 @@
 (require 'init-markdown-mode)
 (require 'init-unicode)
 (require 'init-kill-ring)
-(require 'init-projectile)
 (require 'init-editorconfig)
 (require 'init-fancy-narrow)
+(require 'init-diminish)
+(require 'init-projectile)
 (require 'init-git-gutter)
 
 (provide 'init-base)
