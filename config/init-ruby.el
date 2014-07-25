@@ -5,5 +5,6 @@
 (require 'init-rubocop)
 (require 'init-inf-ruby)
 (require 'init-rhtml)
+(require 'init-robe)
 
 (provide 'init-ruby)
