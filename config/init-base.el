@@ -3,7 +3,8 @@
 
 (setq scroll-step 1
       make-pointer-invisible t
-      frame-title-format "%b@Emacs")
+      frame-title-format "%b@Emacs"
+      enable-local-eval t)
 
 (setq-default make-backup-files nil
 	      auto-save-defaults  t
