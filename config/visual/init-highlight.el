@@ -10,5 +10,6 @@
 
 (hide-trailing-whitespace "inf-ruby" inf-ruby-mode)
 (hide-trailing-whitespace "eshell" eshell-mode)
+(hide-trailing-whitespace "eww" eww-mode)
 
 (provide 'init-highlight)
