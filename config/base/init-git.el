@@ -1,4 +1,8 @@
 
+(require-package 'magit)
+(require-package 'git-commit-mode)
+(require-package 'git-rebase-mode)
+
 (require-package 'git-gutter)
 
 (global-git-gutter-mode 1)
@@ -12,4 +16,4 @@
 (set-face-foreground 'git-gutter:deleted "red")
 (set-face-foreground 'git-gutter:modified "yellow")
 
-(provide 'init-git-gutter)
+(provide 'init-git)

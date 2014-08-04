@@ -16,7 +16,7 @@
 (require 'init-ido)
 (require 'init-uniquify)
 (require 'init-saveplace)
-(require 'init-magit)
+(require 'init-git)
 (require 'init-dired)
 (require 'init-libraries)
 (require 'init-multiple-cursors)
@@ -33,6 +33,5 @@
 (require 'init-fancy-narrow)
 (require 'init-diminish)
 (require 'init-projectile)
-(require 'init-git-gutter)
 
 (provide 'init-base)
