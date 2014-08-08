@@ -32,6 +32,7 @@
 (require 'init-editorconfig)
 (require 'init-fancy-narrow)
 (require 'init-diminish)
+(require 'init-discover)
 (require 'init-projectile)
 
 (provide 'init-base)
