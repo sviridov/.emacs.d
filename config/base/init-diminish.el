@@ -23,7 +23,7 @@
 (rename-minor-mode "yasnippet" yas-minor-mode " Y")
 
 (eval-after-load "flycheck"
- '(setq flycheck-mode-line-lighter " FC"))
+ '(setq flycheck-mode-line-lighter (string 32 #x2708)))
 
 (setq-default projectile-mode-line-lighter "PRJ")
 
