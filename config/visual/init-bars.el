@@ -8,4 +8,7 @@
 (when (fboundp 'scroll-bar-mode)
   (scroll-bar-mode -1))
 
+(when (fboundp 'horizontal-scroll-bar-mode)
+  (horizontal-scroll-bar-mode -1))
+
 (provide 'init-bars)
