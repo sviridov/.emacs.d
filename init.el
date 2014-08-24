@@ -22,4 +22,5 @@
 (require 'init-coffeescript)
 (require 'init-scala)
 (require 'init-ruby)
+(require 'init-elixir)
 (require 'init-web)
