@@ -21,6 +21,7 @@
 (rename-minor-mode "robe" robe-mode nil)
 (rename-minor-mode "rubocop" rubocop-mode nil)
 (rename-minor-mode "yasnippet" yas-minor-mode " Y")
+(rename-minor-mode "subword" subword-mode nil)
 
 (eval-after-load "flycheck"
  '(setq flycheck-mode-line-lighter (string 32 #x2708)))

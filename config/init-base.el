@@ -10,6 +10,8 @@
 	      auto-save-defaults  t
 	      indent-tabs-mode  nil)
 
+(global-subword-mode 1)
+
 (require 'init-startup)
 (require 'init-smex)
 (require 'init-org)
