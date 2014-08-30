@@ -16,4 +16,6 @@
 (set-face-foreground 'git-gutter:deleted "red")
 (set-face-foreground 'git-gutter:modified "yellow")
 
+(require-package 'git-timemachine)
+
 (provide 'init-git)
