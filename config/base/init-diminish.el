@@ -23,6 +23,7 @@
 (rename-minor-mode "yasnippet" yas-minor-mode " Y")
 (rename-minor-mode "subword" subword-mode nil)
 
-(setq-default projectile-mode-line-lighter "PRJ")
+(setq-default projectile-mode-line
+ '(:eval (format " PRJ[%s]" (projectile-project-name))))
 
 (provide 'init-diminish)
