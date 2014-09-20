@@ -1,5 +1,5 @@
 
-(require-package 'magit)
+(require 'magit)
 (require-package 'git-commit-mode)
 (require-package 'git-rebase-mode)
 
