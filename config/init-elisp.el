@@ -23,4 +23,6 @@
 (require 'init-elisp-highlight)
 (require 'init-litable)
 
+(add-to-list 'auto-mode-alist '("Cask" . emacs-lisp-mode))
+
 (provide 'init-elisp)
