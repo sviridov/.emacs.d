@@ -1,7 +1,13 @@
 
-(require 'magit)
+(require-package 'magit)
+(require-package 'magit-gitflow)
 (require-package 'git-commit-mode)
 (require-package 'git-rebase-mode)
+
+(require 'magit)
+(require 'magit-gitflow)
+
+(add-hook 'magit-mode-hook 'turn-on-magit-gitflow)
 
 (require-package 'git-gutter)
 
