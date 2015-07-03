@@ -1,8 +1,6 @@
 
 (require-package 'magit)
 (require-package 'magit-gitflow)
-(require-package 'git-commit-mode)
-(require-package 'git-rebase-mode)
 
 (require 'magit)
 (require 'magit-gitflow)

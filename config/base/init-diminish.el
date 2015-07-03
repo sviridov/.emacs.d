@@ -17,7 +17,6 @@
 (rename-minor-mode "company" company-mode "CMP")
 (rename-minor-mode "eldoc" eldoc-mode "DOC")
 (rename-minor-mode "elisp-slime-nav" elisp-slime-nav-mode "NAV")
-(rename-minor-mode "magit" magit-auto-revert-mode nil)
 (rename-minor-mode "robe" robe-mode nil)
 (rename-minor-mode "rubocop" rubocop-mode nil)
 (rename-minor-mode "yasnippet" yas-minor-mode " Y")
