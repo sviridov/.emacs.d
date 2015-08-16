@@ -2,10 +2,10 @@
 (require-package 'magit)
 (require-package 'magit-gitflow)
 
-(require 'magit)
-(require 'magit-gitflow)
-
-(add-hook 'magit-mode-hook 'turn-on-magit-gitflow)
+(eval-after-load 'magit
+  `(progn
+     (require 'magit-gitflow)
+     (add-hook 'magit-mode-hook 'turn-on-magit-gitflow)))
 
 (require-package 'git-gutter)
 
